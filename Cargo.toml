@@ -1,5 +1,5 @@
 [package]
-name = "my_example_actix3"
+name = "example_actix_web"
 version = "0.1.0"
 edition = "2021"
 
