@@ -40,7 +40,8 @@ async fn index_get(params: web::Query<QueryParams>) -> impl Responder {
     HttpResponse::Ok().json(response) // Return the response as JSON
 }
 
-#[actix_web::main]
+// #[actix_web::main]
+#[tokio::main]
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
