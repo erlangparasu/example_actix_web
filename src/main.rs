@@ -48,7 +48,7 @@ async fn main() -> std::io::Result<()> {
             .service(index_post) // Handle POST requests at the root path
             .service(index_get)  // Handle GET requests at the root path
     })
-    .bind("0.0.0.0:8181")?
+    .bind(("0.0.0.0", 8181))?
     .run()
     .await
 }
