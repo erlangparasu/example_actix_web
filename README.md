@@ -18,7 +18,7 @@ cargo run --release
 curl -X GET http://127.0.0.1:8181/
 ```
 
-## How To Run via Docker
+## Run via Docker
 
 ```shell
 docker compose build
