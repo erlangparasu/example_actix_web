@@ -14,9 +14,14 @@ cd example_actix_web
 cargo run --release
 ```
 
+<br>
+
+> NOTE: Execute on new terminal session
+
 ```shell
 curl -X GET http://127.0.0.1:8181/
 ```
+
 
 ## Run via Docker
 
@@ -27,6 +32,10 @@ docker compose build
 ```shell
 docker compose up -d
 ```
+
+<br>
+
+> NOTE: Execute on new terminal session
 
 ```shell
 curl -X GET http://127.0.0.1:8181/
