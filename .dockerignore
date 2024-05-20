@@ -1,0 +1,33 @@
+# Files and directories to exclude from the Docker build context
+Dockerfile
+docker-compose*
+.git/
+
+# Cargo files
+target/
+
+# Build artifacts
+**/*.rs.bk
+**/*.rlib
+**/*.rmeta
+**/*.so
+**/*.dll
+**/*.dylib
+**/*.d
+**/*.pdb
+**/*.gcda
+**/*.gcno
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# Actix specific files
+.env
+
+# Miscellaneous
+.DS_Store

@@ -1,0 +1,10 @@
+# NOTE: example_actix_web
+services:
+  example_actix_web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #volumes:
+    #  - ./storage:/app/storage
+    ports:
+      - 8181:8181
