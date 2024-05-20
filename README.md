@@ -23,3 +23,14 @@ cargo run --release
 ```shell
 curl -X GET http://127.0.0.1:8181/\?name=world
 ```
+
+## Run via Docker
+
+```shell
+docker compose build
+docker compose up -d
+```
+
+```shell
+curl -X GET http://127.0.0.1:8181/
+```
