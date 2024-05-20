@@ -16,7 +16,7 @@ cargo run --release
 
 <br>
 
-> NOTE: Execute on new terminal session
+> Open new terminal session and execute:
 
 ```shell
 curl -X GET http://127.0.0.1:8181/\?name=World
@@ -35,7 +35,7 @@ docker compose up -d
 
 <br>
 
-> NOTE: Execute on new terminal session
+> Open new terminal session and execute:
 
 ```shell
 curl -X GET http://127.0.0.1:8181/\?name=World
