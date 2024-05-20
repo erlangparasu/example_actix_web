@@ -19,7 +19,7 @@ cargo run --release
 > NOTE: Execute on new terminal session
 
 ```shell
-curl -X GET http://127.0.0.1:8181/
+curl -X GET http://127.0.0.1:8181/?name=World
 ```
 
 
@@ -38,5 +38,5 @@ docker compose up -d
 > NOTE: Execute on new terminal session
 
 ```shell
-curl -X GET http://127.0.0.1:8181/
+curl -X GET http://127.0.0.1:8181/?name=World
 ```
