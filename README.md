@@ -4,11 +4,11 @@
 git clone https://github.com/erlangparasu/example_actix_web.git
 ```
 
-## How To Run
-
 ```shell
 cd example_actix_web
 ```
+
+## How To Run
 
 ```shell
 cargo run --release
